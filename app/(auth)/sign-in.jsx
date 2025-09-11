@@ -84,7 +84,7 @@ const SignInScreen = () => {
                 onChangeText={setEmail}
                 keyboardType="email-address"
                 autoCapitalize="none"
-              />
+              /> 
             </View>
 
             {/* PASSWORD INPUT */}
@@ -95,7 +95,6 @@ const SignInScreen = () => {
                 placeholderTextColor={COLORS.textLight}
                 value={password}
                 onChangeText={setPassword}
-                secureTextEntry={!showPassword}
                 autoCapitalize="none"
               />
               <TouchableOpacity
