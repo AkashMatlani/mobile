@@ -84,7 +84,7 @@ const SearchScreen = () => {
     handleSearch();
   }, [debounseSearchQuery, initialLoading]);
 
-  if (initialLoading) return <Text> Loading some data..</Text>;
+  if (initialLoading) return <LoadingSpinner message="Loading recipes..."></LoadingSpinner>;
   return (
     <View style={searchStyles.container}>
       <View style={searchStyles.searchSection}>
