@@ -95,6 +95,7 @@ const SignInScreen = () => {
                 placeholderTextColor={COLORS.textLight}
                 value={password}
                 onChangeText={setPassword}
+                secureTextEntry={!showPassword}
                 autoCapitalize="none"
               />
               <TouchableOpacity
