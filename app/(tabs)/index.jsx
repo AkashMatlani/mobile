@@ -96,7 +96,7 @@ const HomeScreen = () => {
 
   if (loading && !refreshing)
     return <LoadingSpinner message="Loading delicions recipes..." />;
-
+ 
   return (
     <View style={homeStyles.container}>
       <ScrollView
